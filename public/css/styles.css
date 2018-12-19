@@ -219,7 +219,12 @@ body {
         text-align: center; }
         body .container .gatorGrid .videoSection .videoBlock img {
           float: left;
-          width: 312px; }
+          width: 312px;
+          transition: all .2s ease-in-out; }
+        body .container .gatorGrid .videoSection .videoBlock img:hover {
+          float: left;
+          width: 312px;
+          transform: scale(1.05); }
         body .container .gatorGrid .videoSection .videoBlock .video__subtext {
           background-color: #d7df23;
           width: 304px;
